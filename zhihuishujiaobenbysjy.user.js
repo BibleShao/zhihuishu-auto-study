@@ -3,10 +3,10 @@
 // @namespace    Jiayi Shao
 // @version      1.8.0
 // @description  智慧树学习页：1.5 倍速、随堂练习自动作答、自动下一节；内置切换诊断（NET/PLAYER/CAT，默认开启低噪音，可用 zhsAuto.debug 切换）。1.8.0 = 1.7.0 修复版 + 诊断版合并
-// @homepageURL  https://github.com/CNsjy2008/zhihuishu-auto-study
-// @supportURL   https://github.com/CNsjy2008/zhihuishu-auto-study/issues
-// @updateURL    https://raw.githubusercontent.com/CNsjy2008/zhihuishu-auto-study/main/zhihuishujiaobenbysjy.user.js
-// @downloadURL  https://raw.githubusercontent.com/CNsjy2008/zhihuishu-auto-study/main/zhihuishujiaobenbysjy.user.js
+// @homepageURL  https://github.com/BibleShao/zhihuishu-auto-study
+// @supportURL   https://github.com/BibleShao/zhihuishu-auto-study/issues
+// @updateURL    https://raw.githubusercontent.com/BibleShao/zhihuishu-auto-study/main/zhihuishujiaobenbysjy.user.js
+// @downloadURL  https://raw.githubusercontent.com/BibleShao/zhihuishu-auto-study/main/zhihuishujiaobenbysjy.user.js
 // @match        https://wisdom-mooc.zhihuishu.com/study/*
 // @match        https://wisdom-mooc.zhihuishu.com/*
 // @match        https://studyh5.zhihuishu.com/videoStudy.html*

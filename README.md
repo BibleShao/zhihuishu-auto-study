@@ -16,7 +16,7 @@
 你是一名浏览器自动化助手。请帮我安装并验证智慧树自动学习用户脚本：
 
 1. 下载脚本：打开
-   https://raw.githubusercontent.com/CNsjy2008/zhihuishu-auto-study/main/zhihuishujiaobenbysjy.user.js
+   https://raw.githubusercontent.com/BibleShao/zhihuishu-auto-study/main/zhihuishujiaobenbysjy.user.js
    并把内容保存为 zhihuishujiaobenbysjy.user.js。
 
 2. 检查本机浏览器与脚本管理器：确认已安装 Tampermonkey 或 Violentmonkey。
@@ -137,7 +137,7 @@ Chrome 在 Manifest V3 下通常需要在扩展管理页开启“开发者模式
 方式 A：直接打开 raw 地址，脚本管理器会进入安装页：
 
 ```text
-https://raw.githubusercontent.com/CNsjy2008/zhihuishu-auto-study/main/zhihuishujiaobenbysjy.user.js
+https://raw.githubusercontent.com/BibleShao/zhihuishu-auto-study/main/zhihuishujiaobenbysjy.user.js
 ```
 
 方式 B：在脚本管理器中新建脚本，把 [`zhihuishujiaobenbysjy.user.js`](./zhihuishujiaobenbysjy.user.js) 的完整内容粘贴进去并保存。
