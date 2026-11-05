@@ -1,4 +1,4 @@
-# 智慧树自动学习脚本（zhihuishujiaobenbysjy）
+# 智慧树自动学习脚本
 
 面向智慧树（zhihuishu.com）学习页的 Tampermonkey / Violentmonkey 用户脚本。它把课程视频的 1.5 倍速与学习时长上报、随堂 AI 练习的识别作答与关闭、播完自动切换下一节、平台弹窗处理整合成一条低干扰的本地流程，覆盖含 AI 随堂测验的课程类型。
 
