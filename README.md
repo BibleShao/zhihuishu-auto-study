@@ -8,6 +8,36 @@
 - 脚本文件：[`zhihuishujiaobenbysjy.user.js`](./zhihuishujiaobenbysjy.user.js)
 - 许可证：MIT
 
+<h2 align="center"><b>让 AI Agent 帮你下载、安装并验证</b></h2>
+
+把下面这段提示词直接复制给你的 AI Agent（Claude Code、Cursor、Trae、Codex 等均可）：
+
+```text
+你是一名浏览器自动化助手。请帮我安装并验证智慧树自动学习用户脚本：
+
+1. 下载脚本：打开
+   https://raw.githubusercontent.com/CNsjy2008/zhihuishu-auto-study/main/zhihuishujiaobenbysjy.user.js
+   并把内容保存为 zhihuishujiaobenbysjy.user.js。
+
+2. 检查本机浏览器与脚本管理器：确认已安装 Tampermonkey 或 Violentmonkey。
+   如果浏览器已开启 CDP 调试端口（例如 9222），直接连接；
+   如果没有，请指导我手动开启，或启动一个带 --remote-debugging-port=9222 的浏览器实例。
+
+3. 安装脚本：优先通过脚本管理器的安装页导入 raw 地址；
+   如果自动化操作被浏览器扩展限制，请打开安装页并明确提示我手动点击“安装”。
+
+4. 打开智慧树课程学习页：https://wisdom-mooc.zhihuishu.com/study/
+   确认脚本已加载：右下角出现“智慧树自动学习”面板，日志区域 #zhs-auto-log 有启动输出。
+
+5. 在页面控制台执行 zhsAuto.snapshot() 和 zhsAuto.probe()，
+   确认调试接口可用、播放器已注册。
+
+6. 汇报结果：脚本版本、面板是否出现、日志内容、snapshot/probe 返回值，
+   以及任何报错或需要我手动完成的步骤。
+
+注意：不要绕过登录、验证码或平台风控；遇到易盾验证时暂停自动操作并等待我手动处理。
+```
+
 ## 它解决什么问题
 
 ### 1. 自动切换下一节时的“噪音干扰”
