@@ -8,7 +8,7 @@
 - 脚本文件：[`zhihuishujiaobenbysjy.user.js`](./zhihuishujiaobenbysjy.user.js)
 - 许可证：MIT
 
-<h2 align="center"><b>让 AI Agent 帮你下载、安装并验证</b></h2>
+<h2 align="center"><b>让 AI Agent 帮你下载</b></h2>
 
 把下面这段提示词直接复制给你的 AI Agent（Claude Code、Cursor、Trae、Codex 等均可）：
 
